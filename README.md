@@ -34,12 +34,12 @@ This plot is called the Most Valuable Plot (MVP), also called Combination Chart.
 
 ## Data Modeling 
 We use the following Machine learning algorithms and built Classification models for our supervised classification task.
-1)	Naïve Bayes
-2)	Logistic Regression
-3)	Decision Tree
-4)	Random Forest
-5)	Gradient Boosting Machine (GBM)
-6)	Deep Learning
+### 1)	Naïve Bayes
+### 2)	Logistic Regression
+### 3)	Decision Tree
+### 4)	Random Forest
+### 5)	Gradient Boosting Machine (GBM)
+### 6)	Deep Learning
 
 Out of the above, the first four are Baseline models and last three are improved models.
 
@@ -57,3 +57,4 @@ Heroku is a cloud platform as a service (PaaS) supporting several programming la
 The Final solution is deployed as a Web application (Restful API) on Heroku Cloud platform, link for demo : http://default-risk.herokuapp.com
 
 
+More Information is in the Home_Credit_report.pdf.
