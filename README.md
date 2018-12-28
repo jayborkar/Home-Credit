@@ -49,12 +49,20 @@ Out of the above, the first four are Baseline models and last three are improved
 
 Evaluated Classification models by Accuracy, Confusion Matrix, Precision, Recall, True Negative Rate (TNR), False Discovery Rate (FDR), Gain Chart, Lift Chart, K-S Chart, ROC – AUC chart.
 
+After comparing the performance of above technique Gradient Boosting machine(GBM) performs the best followed by the Deep Learning neural network classifier followed by Random Forest.
+
 ## RESTful API with Python and Flask
 A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data. 
 
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. It is relatively easy to set up a website on Flask using Jinja2 templating. 
 
 Heroku is a cloud platform as a service (PaaS) supporting several programming languages.
+
+## Python -> Machine Learning/Deep Learning Model -> pickle model -> flask -> deploy on Heroku
+
+We save the model to disk using Python’s built in persistence model (pickle or dill) and use this model for prediction on new data.
+
+Now we create the simple flask app. The flask app consists of 2 main components: the python app (app.py) and the HTML templates. While we can return HTML code from the python file itself, it would be cumbersome to code entire HTML as a string in the python file. Templating come to the rescue!
 
 The Final solution is deployed as a Web application (Restful API) on Heroku Cloud platform, link for demo : http://default-risk.herokuapp.com
 
