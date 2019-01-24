@@ -64,7 +64,7 @@ We save the model to disk using Python’s built in persistence model (pickle or
 
 Now we create the simple flask app. The flask app consists of 2 main components: the python app (app.py) and the HTML templates. While we can return HTML code from the python file itself, it would be cumbersome to code entire HTML as a string in the python file. Templating come to the rescue!
 
-The Final solution is deployed as a Web application (Restful API) on Heroku Cloud platform, link for demo : http://default-risk.herokuapp.com
+The Final Machine Learning Model is deployed as a Web application (Restful API) on Heroku Cloud platform, link for demo : http://default-risk.herokuapp.com
 
 
 More Information is in the Home_Credit_report.pdf.
